@@ -21,13 +21,13 @@
     "supports-color": "^8.1.1"
   },
   "devDependencies": {
-    "@types/node": "latest",
+    "@types/node": "20.12.12",
     "@types/nodemailer": "^6.4.11",
-    "@types/react": "latest",
+    "@types/react": "18.3.2",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "5.4.5"
   }
 }

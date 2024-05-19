@@ -39,7 +39,6 @@ export async function scrapeAndStoreProduct(productURL: string) {
             product,
             { upsert: true, new: true }
         );
-
         revalidatePath(`/products/${newProduct._id}`);
 
     } catch (error: any) {
